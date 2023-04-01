@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QR Testing</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="change_photo">Change Photo</string>
+</resources>
