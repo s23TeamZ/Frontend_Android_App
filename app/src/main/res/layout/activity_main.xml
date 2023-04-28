@@ -20,7 +20,6 @@
             android:gravity="center"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-
             android:text="QR TESTER"
             android:textColor="@color/white"
             android:textSize="40sp"
@@ -94,6 +93,12 @@
             android:paddingStart="5dp"
             android:text="Status:"
             android:textColor="#A846F4"/>
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
         <EditText
             android:id="@+id/response"
             android:layout_width="match_parent"
@@ -102,5 +107,6 @@
             android:inputType="text|textMultiLine"
             android:text="The response will be displayed here after the QR code has been scanned."
             android:textColor="@color/white" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
